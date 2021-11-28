@@ -1,0 +1,52 @@
+body{
+    margin: 10% 20%; 
+}
+h1{
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+ 
+  -webkit-text-fill-color: transparent;
+ animation: text 10s linear ;
+  
+}
+
+
+div{
+    margin: 3rem; 
+   border: black solid;
+   padding: 20px;
+   border-radius: 10px;
+}
+.el-input{
+    text-align: center ;
+    
+}
+ul{
+   margin: 10px; 
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-decoration: underline;
+ transition-delay: 1000ms;
+
+}
+button{
+    border: none;
+    
+    background-image: linear-gradient(to left,   blue, green, yellow, red);
+padding: 10px 10px;
+border-radius: 8px;
+
+}
+button:hover{
+    background-color: blue;
+    
+}
+button:active{
+    background-image: linear-gradient(to left,   blue, green, yellow, red);
+    box-shadow: 0 5px gray;
+    transform: translateY(2px);
+}
+h1:checked{
+    
+    transform: translateX(50%);
+    top: 10%;
+}
