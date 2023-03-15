@@ -1,4 +1,4 @@
- let storege = ["sdfghj"]
+ let storege = ["Hello World","to-do-list"]
  const ELinput = document.getElementById("el-input")
  const subnitbtn = document.getElementById("subnit-btn")
 const deletebtn = document.getElementById("delete-btn")
